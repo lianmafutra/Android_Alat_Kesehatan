@@ -1,0 +1,12 @@
+[
+  {
+    "nama" : "judul 1",
+    "deskripsi" : "ok",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "judul 2",
+    "deskripsi" : "ok aja",
+    "gambar": "gambar_2.jpg"
+  }
+]
