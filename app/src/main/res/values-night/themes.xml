@@ -1,7 +1,23 @@
 <resources xmlns:tools="http://schemas.android.com/tools">
     <!-- Base application theme. -->
-    <style name="Base.Theme.HomeActivity" parent="Theme.Material3.DayNight.NoActionBar">
-        <!-- Customize your dark theme here. -->
-        <!-- <item name="colorPrimary">@color/my_dark_primary</item> -->
+    <style name="Base.Theme.HomeActivity" parent="Theme.Material3.DayNight">
+        <!-- Customize your light theme here. -->
+        <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
     </style>
+
+    <style name="Theme.HomeActivity" parent="Base.Theme.HomeActivity" />
+
+    <style name="card_menu_home" parent="Base.Theme.HomeActivity" >
+        <item name="cardCornerRadius">10dp</item>
+        <item name="android:layout_height">80dp</item>
+        <item name="cardElevation">10dp</item>
+        <item name="android:layout_margin">10dp</item>
+    </style>
+
+    <style name="text_card_menu_home" parent="Base.Theme.HomeActivity" >
+        <item name="android:textSize">22sp</item>
+        <item name="android:textStyle">normal</item>
+    </style>
+
+
 </resources>
