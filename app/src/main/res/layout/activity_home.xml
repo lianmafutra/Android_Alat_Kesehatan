@@ -68,14 +68,14 @@
                         app:layout_constraintTop_toTopOf="@+id/imageView5" />
 
                     <ImageView
-                        android:padding="10dp"
                         android:id="@+id/imageView5"
                         android:layout_width="wrap_content"
                         android:layout_height="0dp"
-                        android:layout_marginStart="16dp"
+                        android:layout_marginStart="8dp"
                         android:layout_marginTop="8dp"
                         android:layout_marginBottom="8dp"
-                        android:src="@drawable/ic_launcher_background"
+                        android:padding="10dp"
+                        android:src="@drawable/ic_tentang"
                         app:layout_constraintBottom_toBottomOf="parent"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
@@ -108,7 +108,7 @@
                         style="@style/text_card_menu_home"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
-                        android:text="Alat Kesehatan"
+                        android:text="Alat Kehamilan"
                         app:layout_constraintBottom_toBottomOf="@+id/imageView4"
                         app:layout_constraintStart_toEndOf="@+id/imageView4"
                         app:layout_constraintTop_toTopOf="@+id/imageView4" />

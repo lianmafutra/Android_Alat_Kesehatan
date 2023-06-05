@@ -51,7 +51,7 @@ class AlatKesehatanListActivity : AppCompatActivity() {
 
     private fun initToolbar() {
         val actionBar = supportActionBar
-        actionBar!!.title = "List Alat Kesehatan"
+        actionBar!!.title = "List Alat Kehamilan"
         actionBar.setDisplayHomeAsUpEnabled(true)
         actionBar.setDisplayHomeAsUpEnabled(true)
     }

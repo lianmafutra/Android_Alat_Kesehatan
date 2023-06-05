@@ -1,12 +1,212 @@
 [
   {
-    "nama" : "judul 1",
-    "deskripsi" : "ok",
+    "nama" : "Troli medis/ Instrument troli",
+    "deskripsi" : "Merupakan alat bantu berbentuk meja kecil yang digunakan diruangan medis untuk membawa berbagai instrument atau kebutuhan medis lainnya pada saat Tindakan. Troli ini terdiri dari dua susun atau lebih dan terdapat pegangan/handle sehingga mudah ditarik atau didorong",
+    "gambar": "1.png"
+  },
+  {
+    "nama" : "Stadiometer/ Pengukur TB",
+    "deskripsi" : "Adalah alat ukur tinggi badan yang akurat. Salah satu jenisnya yang paling populer yaitu stadiometer portable",
+    "gambar": "2.png"
+  },
+  {
+    "nama" : "Timbangan Dewasa",
+    "deskripsi" : "Merupakan jenis alat untuk mengukur massa atau bobot pada seseorang. Timbangan ini terdapat manual, digitial dan juga hybrid atau timbangan yang cara kerjanya merupakan perpaduan antara timbangan manual dan digital.",
+    "gambar": "3.png"
+  },
+  {
+    "nama" : "Pita LILA",
+    "deskripsi" : "Digunakan untuk mengukur lingkar lengan atas dari lengan kiri atau lengan yang tidak aktif. Pita ukur ini terbuat dari karton berukuran 33cm x 3cm dengan lubang di ujungnya dan memiliki skala dalam ukuran sentimeter di kedua sisinya. Merupakan jenis pemeriksaan antropometri yang digunakan untuk mengukur risiko KEK pada wanita usia subur yang meliputi remaja, ibu hamil, ibu menyusui dan Pasangan Usia Subur (PUS)",
+    "gambar": "4.png"
+  },
+  {
+    "nama" : "Sphygmomanometer/ Tensimeter",
+    "deskripsi" : "Alat ukur yang dibuat untuk mengukur tekanan darah",
+    "gambar": "5.png"
+  },
+  {
+    "nama" : "Thermometer",
+    "deskripsi" : "Alat yang digunakan untuk mengukur suhu (temperature) alat yang digunakan untuk mengukur suhu, atau alat yang digunakan untuk menyatakan derajat dingin dan panasnya suatu benda",
+    "gambar": "6.png"
+  },
+  {
+    "nama" : "Penlight/ Senter medis",
+    "deskripsi" : "Merupakan salah satu alat medis yang berfungsi sebagai sumber cahaya dan menjadi alat yang umum untuk pemeriksaan tersebut dikarenakan cahaya yang dihasilkan dari penlight dapat dipakai untuk melihat titik pupil mata dan mengecek pemeriksaan di daerah gelap (rongga mulut, telinga, dll). Disebut penlight karena bentuk nya yang kecil berukuran sekitar 5 inch seperti pen / pulpen dan menghasilkan cahaya yang terang seperti senter",
+    "gambar": "7.png"
+  },
+  {
+    "nama" : "Tong spatel",
+    "deskripsi" : "Berfungsi untuk memeriksa rongga mulut dan lidah pasien dengan cara menekan lidah pasien ke atas atau ke bawah, sehingga keadaan di dalam tenggorokan bisa terlihat dengan jelas. Alat  ini terbuat dari bahan logam stainless yang agak lentur sehingga dapat dibengkokkan sesuai dengan bentuk atau anatomi rongga mulut. Alat ini memiliki jumlah 8 lubang yang terdapat pada setiap sisi masing-masing 4 lubang. Lubang pada tongue spatel berfungsi sebagai pegangan anti slip dan berfungsi juga untuk melihat objek yang diperiksa. Selain itu, alat ini juga dapat digunakan kembali setelah dicuci dan di sterilkan.",
+    "gambar": "8.png"
+  },
+  {
+    "nama" : "Bak instrument kecil",
+    "deskripsi" : "Bak instrumen adalah sebuah kotak yang terbuat dari bahan stainless dan digunakan untuk meletakkan peralatan medis seperti gunting dan pinset serta peralatan bedah stainless lainnya. Dilengkapi tutup untuk menjaga kehigienisan peralatan bedah. Dapat digunakan untuk wadah alat dental seperti sonde, pinset, gun shooter, tang, dan kaca mulut",
+    "gambar": "9.png"
+  },
+  {
+    "nama" : "Pita centimeter/ metlin",
+    "deskripsi" : "Pita ukur merupakan perangkat pengukuran portabel yang digunakan untuk mengukur panjang, jarak dan sudut. Dalam pemeriksaan kehamilan pita ini digunakan sebagai metode akurat dalam mengukur tinggi fundus uteri (TFU) dalam ukuran centimeter (cm)",
     "gambar": "gambar_1.jpg"
   },
   {
-    "nama" : "judul 2",
-    "deskripsi" : "ok aja",
-    "gambar": "gambar_2.jpg"
+    "nama" : "Monoaural/leanec/ fetoscope",
+    "deskripsi" : "adalah salah satu perlengkapan seorang bidan yang digunakan untuk mendeteksi denyut jantung janin dalam kandungan yang terbuat dari kayu atau aluminium. Dengan menempelkan monoaural dalam perut ibu hamil maka denyut jantung janin akan terdengar",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Fetal Doppler ",
+    "deskripsi" : "Alat diagnostik yang digunakan untuk mendeteksi denyut jantung bayi yang berada dalam kandungan",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Kom tertutup sedang",
+    "deskripsi" : "kom tutup adalah waskom yang digunakan untuk meletakan kapas alkohol ,betadine alat steril lainnya. dilengkapi dengan penutup dan terbuat dari stainless steel.",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Perlak dan Alas bokong",
+    "deskripsi" : "Perlak merupakan pelapis/cover yang dapat menahan cairan dengan cepat dan mudah pada umumnya digunakan pada rumah sakit atau pribadi bagi pasien atau orang yang bermasalah dalam mengontrol keluarnya cairan sehingga tidak membasahi atau mengotori kasur atau matras.",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Lampu sorot",
+    "deskripsi" : "Lampu sorot memiliki fungsi yaitu sebagai alat penerangan pada saat pemeriksaan fisik pasien. Biasanya lampu ini dari jenis halogen atau LED yang tidak panas. Jadi fungsinya hanya sebagai penerangan saja pada saat pemeriksaan fisik sehingga kondisinya lebih jelas",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Bengkok",
+    "deskripsi" : "Bengkok memiliki fungsi sebagai wadah yang digunakan untuk membuang kapas bekas pakai, kasa bekas pakai, pus, darah atau untuk meletakkan sementara peralatan kotor sebelum didekontaminasi",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Reflek hammer",
+    "deskripsi" : "Reflex Hammer/palu refleks merupakan alat medis yang digunakan  untuk menguji refleks tendon dalam/lutut. Pengujian refleksitas pasien merupakan bagian penting dari pemeriksaan fisik neurologis untuk mendeteksi kelainan pada sistem saraf pusat atau perifer",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Jangka panggul",
+    "deskripsi" : "Jangka panggul / pelvimeter, digunakan untuk mengukur panggul ketika sedang hamil.Tujuan dilakukannya pemeriksaan panggul untuk para ibu hamil yaitu untuk menilai keadaan dan bentuk panggul apakah terdapat kelainan atau keadaan yang dapat menimbulkan penyulitan persalinan, apakah terdapat dugaan kesempitan panggul atau kelainan panggul",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Matras",
+    "deskripsi" : "Matras berfungsi sebagai alas senam ibu hamil, dan untuk melindungi anggota tubuh dari kemungkinan cidera akibat benturan langsung dengan lantai serta memberikan rasa nyaman dan hangat.",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Gym ball",
+    "deskripsi" : "Manfaat penggunaan Gym ball bagi ibu hamil  membantu meningkatkan aliran darah ke daerah panggul ibu (rahim dan plasenta), membantu memberikan tekanan balik ke paha dan perineum ibu, memberikan dukungan yang sangat baik untuk pergelangan kaki dan lutut, membantu tubuh dalam posisi tegak",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Peanut ball",
+    "deskripsi" : "Peanut ball berfungsi untuk memindahkan posisi bayi yang sungsang dengan cara berlutut atau bersandar. Ibu hamil yang menggunakan peanut ball setiap harinya secara teratur sebelum persalinan, cenderung tidak merasakan nyeri yang berlebihan ketika melahirkan",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Set pemeriksaan Haemoglobin",
+    "deskripsi" : "Set pemeriksaan haemoglobin berfungsi untuk menentukan kadar hemoglobin darah, sehingga dapat membantu indikasi klinis terhadap kondisi pasien yang melakukan pemeriksaan",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Tabung reaksi",
+    "deskripsi" : "Tabung reaksi berfungsi untuk tempat mereaksikan dua larutan/bahan kimia atau lebih, serta sebagai tempat mengembangbiakan mikroba dalam media cair.",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Rak tabung reaksi",
+    "deskripsi" : "Rak tabung reaksi merupakan salah satu dari instrument peralatan laboratorium non gelas yang digunakan untuk menyimpan atau menata beberapa tabung reaksi. Alat ini berbentuk seperti rak kecil dan terbuat dari kayu, dibagian atasnya terdapat beberapa lubang sebagai tempat  untuk meletakkan tabung reaksi agar tabung dapat berdiri.",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Penjepit tabung reaksi",
+    "deskripsi" : "Penjepit Tabung Reaksi adalah alat laboratorium berbahan dasar kayu dengan jepitan pegas yang terbuat dari baja. Alat laboratorium ini berfungsi untuk menjepit atau memindahkan tabung reaksi yang telah atau selama proses pemanasan",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Pipet tetes",
+    "deskripsi" : "Pipet tetes merupakan jenis pipet yang digunakan untuk memindahkan larutan dari suatu wadah ke wadah lain dengan jumlah yang sangat sedikit dan dengan tingkat ketelitian pengukuran volume yang sangat rendah",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Lampu spiritus",
+    "deskripsi" : "Lampu spiritus merupakan salah satu alat yang diperlukan pada setiap percobaan kimia atau praktikum lainnya. Alat ini digunakan untuk membakar zat atau memanasi larutan. Lampu spiritus ini banyak juga digunakan oleh bidan untuk memeriksa laboratorium, yaitu memeriksa reduksi urine dan protein urine pada ibu hamil",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Ultrasonografi (USG)",
+    "deskripsi" : "USG adalah teknik pemindaian dengan memanfaatkan gelombang suara berfrekuensi tinggi untuk menghasilkan gambar atau citra dari kondisi organ atau jaringan dalam tubuh pasien. Manfaat USG sebagai pemantau perkembangan janin. Setelah hamil semakin besar, perlu dipantau perkembangan janin (membandingkan berat janin apakah sesuai dengan usia kehamilan), memantau detak jantung bayi, ketuban, placenta dan lain-lain. Mengevaluasi kelainan janin, melihat jenis kelamin",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "CTG/ Fetal Monitor",
+    "deskripsi" : "aaaaa",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Phantom perut ibu",
+    "deskripsi" : "Phantom adalah alat peraga untuk pengetahuan tentang anatomi atau faal tubuh yang digunakan oleh mahasiswa kebidanan dalam menangani pasien. Kegunaan Phantom perut ibu ini adalah untuk pembelajaran tentang perkembangan janin di dalam kandungan. Serta berbagai macam tindakan pemeriksaan pada saat periksa kehamilan",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Kasa",
+    "deskripsi" : "Kasa merupakan kain tipis dan tembus cahaya dengan tenunan terbuka yang longgar. produk tekstil medis ini biasanya digunakan untuk membalut luka",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Jelly",
+    "deskripsi" : "Gel pada sistem pemeriksaan kesehatan menggunakan USG/doppler berfungsi sebagai medium untuk menghantarkan gelombang ultrasonik ke tubuh pasien. Gel ini selain berfungsi sebagai pelumas juga memperjelas suara obyek yang diperiksa. Tanpa gel energi ultrasonik akan mengalamai pelemahan disebabkan oleh atenuasi udara yang terletak antara probe dengan tubuh",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Kapas sublimat",
+    "deskripsi" : "Untuk memudahkan membersihkan daerah vulva",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Handscoon",
+    "deskripsi" : "Di pakai oleh tenaga medis agar terhindar dari droplet pasien. Tujuan Penggunaan Handscoon adalah untuk mencegah terjadinya infeksi silang serta mencegah terjadinya penularan kuman",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Aquades",
+    "deskripsi" : "Aquades merupakan air yang biasanya digunakan di ruang laboratorium. Kegunaannya dapat dimanfaatkan untuk pencampur zat pada saat melakukan praktek kimia di laboratorium, reagent, dan tentunya sebagai pembersih dari alat-alat laboratorium",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Larutan Hcl",
+    "deskripsi" : "Larutan Hcl adalah larutan akuatik dari gas Hidrogen Klorida, yang dikenal juga dengan Asam Klorida. Di laboratorium, asam klorida biasa digunakan untuk titrasi penentuan kadar basa dalam sebuah larutan",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Spuit 3 cc",
+    "deskripsi" : "Spuit adalah pompa piston sederhana untuk menyuntikkan atau menghisap cairan atau gas. Alat suntik terdiri dari tabung dengan piston di dalamnya yang keluar dari ujung belakang. Adapun ujung depannya dapat dilengkapi dengan jarum hipodermik atau selang untuk membantu mengarahkan aliran ke dalam atau keluar tabung",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Reagen benedict",
+    "deskripsi" : "Reagen Benedict digunakan untuk menguji keberadaan gula pereduksi dalam suatu sampel. Gula pereduksi mencakup monosakarida dan beberapa disakarida, termasuk laktosa dan maltosa. Reagen Benedict dapat digunakan untuk menguji adanya glukosa dalam urine. Beberapa gula seperti glukosa disebut gula pereduksi karena mereka mampu mentransfer hidrogen (elektron) ke senyawa lain, proses yang disebut reduksi. Ketika gula pereduksi dicampur dengan reagen benedicts dan dipanaskan maka akan menyebabkan reagen benedicts berubah warna. Warna ini bervariasi dari hijau sampai merah bata, tergantung pada jumlah dan jenis gula",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Asam Asetat",
+    "deskripsi" : "Asam asetat adalah salah satu senyawa organik yang berada dalam golongan asam alkanoat. Metode Asam asetat dapat mengukur adanya kandungan protein dalam urin dimana pemberian asam asetat dapat mencapai titik iso elektrik protein, dengan pemanasan mengakibatkan denaturasi dan terjadi presipitasi, proses presipitasi dibantu oleh garam-garam yang telah ada dalam urin",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Cairan spiritus",
+    "deskripsi" : "Spiritus (metanol, CH3OH) adalah salah satu bentuk alkohol yang berbentuk cairan ringan, mudah menguap, tidak berwarna, mudah terbakar, beracun, dan mengeluarkan aroma khas. Spiritus kerap digunakan sebagai bahan pendingin anti beku, pelarut bahan bakar, juga sebagai bahan aditif bagi etanol industri",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Tabung urine",
+    "deskripsi" : "Tabung urine berfungsi sebagai wadah untuk urine pada pasien yang ditujukan sebagai bahan pemeriksaan pada Laboratorium",
+    "gambar": "gambar_1.jpg"
+  },
+  {
+    "nama" : "Alat test kehamilan/ PP test/ test pack",
+    "deskripsi" : "Test pack adalah alat uji kehamilan yang bekerja dengan cara mendeteksi hormon hCG (human chorionic gonadotropin) di dalam urine. Hormon ini umumnya diproduksi setelah sel telur yang telah dibuahi menempel di dinding rahim",
+    "gambar": "gambar_1.jpg"
   }
 ]
