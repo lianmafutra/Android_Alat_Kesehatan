@@ -2,23 +2,19 @@ package com.app.kesehatan
 
 import android.annotation.SuppressLint
 import android.content.Context
-import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.view.Menu
 import android.view.MenuItem
-import android.view.View
 import android.widget.Toast
+import androidx.appcompat.app.AppCompatActivity
 import androidx.appcompat.widget.SearchView
 import androidx.recyclerview.widget.DefaultItemAnimator
 import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
 import com.app.kesehatan.adapter.AdapterListAlatKesehatan
-import com.app.kesehatan.adapter.RecyclerViewClickListener
 import com.app.kesehatan.databinding.ActivityAlatKesehatanListBinding
 import com.app.kesehatan.model.ModelAlatKesehatanItem
 import com.google.gson.Gson
 import com.google.gson.reflect.TypeToken
-import java.io.IOException
 import java.util.Locale
 
 class AlatKesehatanListActivity : AppCompatActivity() {
@@ -26,8 +22,6 @@ class AlatKesehatanListActivity : AppCompatActivity() {
     private lateinit var binding: ActivityAlatKesehatanListBinding
 
     lateinit var adapaterAlatKesehatan: AdapterListAlatKesehatan
-//    lateinit var modelAlatKesehatanItem: ArrayList<ModelAlatKesehatanItem>
-
 
     @SuppressLint("NotifyDataSetChanged")
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -42,16 +36,13 @@ class AlatKesehatanListActivity : AppCompatActivity() {
         binding.rvAlatKesehatan.itemAnimator = DefaultItemAnimator()
         binding.rvAlatKesehatan.adapter = adapaterAlatKesehatan
 
-//        modelAlatKesehatanItem = ArrayList()
-
-        initToolbar()
         getDataAlatKesehatan(this);
         adapaterAlatKesehatan.notifyDataSetChanged()
     }
 
-    private fun initToolbar() {
+    private fun initToolbar(title : String) {
         val actionBar = supportActionBar
-        actionBar!!.title = "List Alat Kehamilan"
+        actionBar!!.title = title
         actionBar.setDisplayHomeAsUpEnabled(true)
         actionBar.setDisplayHomeAsUpEnabled(true)
     }
@@ -86,25 +77,15 @@ class AlatKesehatanListActivity : AppCompatActivity() {
     }
 
     private fun filter(text: String) {
-        // creating a new array list to filter our data.
         val filteredlist: ArrayList<ModelAlatKesehatanItem> = ArrayList()
-
-        // running a for loop to compare elements.
         for (item in getDataAlatKesehatan(this)) {
-            // checking if the entered string matched with any item of our recycler view.
             if (item.nama!!.toLowerCase(Locale.ROOT).contains(text.toLowerCase(Locale.ROOT))) {
-                // if the item is matched we are
-                // adding it to our filtered list.
                 filteredlist.add(item)
             }
         }
         if (filteredlist.isEmpty()) {
-            // if no item is added in filtered list we are
-            // displaying a toast message as no data found.
-            Toast.makeText(this, "No Data Found..", Toast.LENGTH_SHORT).show()
+            print("Data Tidak Ditemukan")
         } else {
-            // at last we are passing that filtered
-            // list to our adapter class.
             adapaterAlatKesehatan.filterList(filteredlist)
         }
     }
@@ -112,20 +93,37 @@ class AlatKesehatanListActivity : AppCompatActivity() {
     private fun getDataAlatKesehatan(context: Context): List<ModelAlatKesehatanItem> {
         lateinit var jsonString: String
         try {
-            jsonString =  context.assets.open("data.json")
+
+            lateinit var type: String
+            if(intent.extras != null)
+            {
+                val bundle = intent.extras
+
+                when (bundle!!.getString(HomeActivity.Data.TYPE)) {
+                    "alat" -> {
+                        type = "data_alat.json"
+                        initToolbar("List Alat Kehamilan")
+                    }
+                    "bahan" -> {
+                        type = "data_bahan.json"
+                        initToolbar("List Bahan Kehamilan")
+                    }
+                    else -> println("tidak ada data")
+                }
+
+            }
+
+            jsonString =  context.assets.open(type)
                     .bufferedReader()
                     .use {
                         it.readText()
                     }
 
-
         } catch (t: Throwable) {
             Toast.makeText(this, "error : $t", Toast.LENGTH_SHORT).show()
         }
-        val listCountryType = object : TypeToken<List<ModelAlatKesehatanItem>>() {}.type
-
-
-        return Gson().fromJson(jsonString, listCountryType)
+        val listData = object : TypeToken<List<ModelAlatKesehatanItem>>() {}.type
+        return Gson().fromJson(jsonString, listData)
     }
 
 }
