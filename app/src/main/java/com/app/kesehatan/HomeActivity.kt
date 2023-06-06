@@ -29,7 +29,7 @@ class HomeActivity : AppCompatActivity() {
         binding.cardAlatKesehatan.setOnClickListener {
 
             val alertDialog = AlertDialog.Builder(this)
-            alertDialog.setTitle("- ilih Data: ")
+            alertDialog.setTitle(" Pilih Data : ")
             alertDialog.setIcon(R.drawable.ic_alat_kesehatan)
             val items = arrayOf("Alat Kehamilan", "Bahan Kehamilan")
             alertDialog.setItems(items) { dialog, which ->
